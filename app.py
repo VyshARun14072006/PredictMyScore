@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 st.title("🎓 Student Performance Prediction System")
 
 # Load dataset
-data = pd.read_csv("dataset/student_data.csv")
+data = pd.read_csv("student_data.csv")
 st.subheader("Sample Dataset")
 st.write(data.head())
 
